@@ -8,7 +8,6 @@ func main() {
 	pares := 0
 	impares := 0
 	for _, comp := range numero {
-		fmt.Println("-------")
 		if comp%2 == 0 {
 			pares++
 			fmt.Println(comp, "  Es par ")
